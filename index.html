@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forty shades of gray</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">  -->
+	<link rel="stylesheet" type="text/css" href="fsog.css">
+</head>
+<body>
+	<div >
+		<p class="heading">1 To 50</p>
+	</div>
+	
+	<div class="t">
+		<!-- <span id="tx">Click <b>the numbers</b> as</span> -->
+		<span onclick="newg()" id="ng"><b>New Game</b></span>
+		<span class="wo"><span class="awords"  >TIME :</span></span>
+		<span class="nu"><span id="time" class="ti">0.000</span></span>
+	</div>
+	<!-- <p class="tb">quickly as you can</p> -->
+<div class="ovfl">	
+	<table id="mytab" >
+		<div class="marquee">
+			<tr class="marqueel">
+				<td onclick="myfun(0)"></td>
+   				<td onclick="myfun(1)"></td>
+				<td onclick="myfun(2)"></td>
+				<td onclick="myfun(3)"></td>
+				<td onclick="myfun(4)"></td>
+				<td onclick="myfun(5)"></td>
+   				<td onclick="myfun(6)"></td>
+				<td onclick="myfun(7)"></td>
+				<td onclick="myfun(8)"></td>
+				<td onclick="myfun(9)"></td>
+			</tr>
+		</div>	
+		<tr class="marqueer">
+			<td onclick="myfun(10)">11</td>
+			<td onclick="myfun(11)">12</td>
+			<td onclick="myfun(12)">13</td>
+			<td onclick="myfun(13)">14</td>
+			<td onclick="myfun(14)">15</td>
+			<td onclick="myfun(15)">16</td>
+			<td onclick="myfun(16)">17</td>
+			<td onclick="myfun(17)">18</td>
+			<td onclick="myfun(18)">0</td>
+			<td onclick="myfun(19)">0</td>
+		</tr>
+		<tr class="marqueel">
+			<td onclick="myfun(20)">0</td>
+			<td onclick="myfun(21)">0</td>
+			<td onclick="myfun(22)">0</td>
+			<td onclick="myfun(23)">0</td>
+			<td onclick="myfun(24)">0</td>
+			<td onclick="myfun(25)">0</td>
+			<td onclick="myfun(26)">0</td>
+			<td onclick="myfun(27)">0</td>
+			<td onclick="myfun(28)">0</td>
+			<td onclick="myfun(29)">0</td>
+		</tr>
+		<tr class="marqueer">
+			<td onclick="myfun(30)">0</td>
+			<td onclick="myfun(31)">0</td>
+			<td onclick="myfun(32)">0</td>
+			<td onclick="myfun(33)">0</td>
+			<td onclick="myfun(34)">0</td>
+			<td onclick="myfun(35)">0</td>
+			<td onclick="myfun(36)">0</td>
+			<td onclick="myfun(37)">0</td>
+			<td onclick="myfun(38)">0</td>
+			<td onclick="myfun(39)">0</td>
+		</tr>
+	</table>
+</div>
+	
+	<!-- <span class="awords">BEST TIME</span> -->
+
+<div class="nu">
+	<span class="btim"><span class="awords">Best times:</span></span>	
+	<span id="btime1" class="ti">0.000</span>
+	<span id="btime2" class="ti">0.000</span>
+	<span id="btime3" class="ti">0.000</span>
+	<span id="btime4" class="ti">0.000</span>
+	<span id="btime5" class="ti">0.000</span>
+</div>	
+<audio id="aud1"><source src="1.mp3" type="audio/mpeg"></audio>
+<audio id="aud2"><source src="2.mp3" type="audio/mpeg"></audio>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
