@@ -30,21 +30,21 @@ let aud2=document.getElementById("aud2");
  }
 if(window.localStorage.getItem('count')=='0')
 {
- 	window.localStorage.setItem('best1easy', '1000.000');
- 	window.localStorage.setItem('best2easy', '1000.000');
- 	window.localStorage.setItem('best3easy', '1000.000');
- 	window.localStorage.setItem('best4easy', '1000.000');
- 	window.localStorage.setItem('best5easy', '1000.000');
- 	window.localStorage.setItem('best1medium', '1000.000');
- 	window.localStorage.setItem('best2medium', '1000.000');
- 	window.localStorage.setItem('best3medium', '1000.000');
- 	window.localStorage.setItem('best4medium', '1000.000');
- 	window.localStorage.setItem('best5medium', '1000.000');
- 	window.localStorage.setItem('best1hard', '1000.000');
- 	window.localStorage.setItem('best2hard', '1000.000');
- 	window.localStorage.setItem('best3hard', '1000.000');
- 	window.localStorage.setItem('best4hard', '1000.000');
- 	window.localStorage.setItem('best5hard', '1000.000');
+ 	window.localStorage.setItem('best1easy', '1000.0000');
+ 	window.localStorage.setItem('best2easy', '1000.0000');
+ 	window.localStorage.setItem('best3easy', '1000.0000');
+ 	window.localStorage.setItem('best4easy', '1000.0000');
+ 	window.localStorage.setItem('best5easy', '1000.0000');
+ 	window.localStorage.setItem('best1medium', '1000.0000');
+ 	window.localStorage.setItem('best2medium', '1000.0000');
+ 	window.localStorage.setItem('best3medium', '1000.0000');
+ 	window.localStorage.setItem('best4medium', '1000.0000');
+ 	window.localStorage.setItem('best5medium', '1000.0000');
+ 	window.localStorage.setItem('best1hard', '1000.0000');
+ 	window.localStorage.setItem('best2hard', '1000.0000');
+ 	window.localStorage.setItem('best3hard', '1000.0000');
+ 	window.localStorage.setItem('best4hard', '1000.0000');
+ 	window.localStorage.setItem('best5hard', '1000.0000');
 }
 
 
