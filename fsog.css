@@ -6,7 +6,7 @@
 	background-color: beige;
 	border-radius: 10px;
 	width: 500px;
-	margin : 15px auto 50px auto;
+	margin: 15px auto 50px auto;
 }
 .wid {
 	width: 130px;
@@ -15,15 +15,15 @@
 	width: 650px;
 	overflow: hidden;
 	margin: auto auto;
-	border : 1px solid gray; 
+	border: 1px solid gray;
 	border-radius: 10px;
 }
 tr {
 	max-width: 400px;
 }
- .hid {
+.hid {
 	/* display: none; */
-} 
+}
 :root {
 	--myl: -640px;
 	--myr: 640px;
@@ -44,53 +44,77 @@ tr {
 	-moz-animation-timing-function: linear;
 	animation-timing-function: linear;
 }
-@-webkit-keyframes animel{
-	0% { left: var(--myl); } 
-	100% { left: 0px; } 
+@-webkit-keyframes animel {
+	0% {
+		left: var(--myl);
+	}
+	100% {
+		left: 0px;
+	}
 }
-@-moz-keyframes animel{
-	0% { left: var(--myl); } 
-	100% { left: 0px; } 
+@-moz-keyframes animel {
+	0% {
+		left: var(--myl);
+	}
+	100% {
+		left: 0px;
+	}
 }
-@keyframes animel{
-	0% { left: var(--myl); } 
-	100% { left: 0px; } 
+@keyframes animel {
+	0% {
+		left: var(--myl);
+	}
+	100% {
+		left: 0px;
+	}
 }
 .marqueer {
 	overflow: hidden;
 	position: relative;
-	
+
 	-webkit-animation-name: animer;
 	-moz-animation-name: animer;
 	animation-name: animer;
-	
+
 	-webkit-animation-duration: 5s;
 	-moz-animation-duration: 5s;
 	animation-duration: 5s;
-	
+
 	-webkit-animation-iteration-count: infinite;
 	-moz-animation-iteration-count: infinite;
 	animation-iteration-count: infinite;
-	
+
 	-webkit-animation-timing-function: linear;
 	-moz-animation-timing-function: linear;
 	animation-timing-function: linear;
 }
-@-webkit-keyframes animer{
-	0% { right: 0px; } 
-	100% { right: var(--myr); } 
+@-webkit-keyframes animer {
+	0% {
+		right: 0px;
+	}
+	100% {
+		right: var(--myr);
+	}
 }
-@-moz-keyframes animer{
-	0% { right: 0px; } 
-	100% { right: var(--myr); } 
+@-moz-keyframes animer {
+	0% {
+		right: 0px;
+	}
+	100% {
+		right: var(--myr);
+	}
 }
-@keyframes animer{
-	0% { right: 0px; } 
-	100% { right: var(--myr); } 
+@keyframes animer {
+	0% {
+		right: 0px;
+	}
+	100% {
+		right: var(--myr);
+	}
 }
 table {
 	margin: auto auto;
-	padding: 8px; 
+	padding: 8px;
 	/* border : 1px solid gray;
 	border-radius: 10px; */
 	overflow: hidden;
@@ -99,27 +123,25 @@ table {
 td {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	padding-left :35px;
-	padding-right :35px;
-	background-color: rgb(0,0,0);
+	padding-left: 35px;
+	padding-right: 35px;
+	background-color: rgb(0, 0, 0);
 	border-radius: 8px;
 	font-size: 50px;
 	width: 130px;
 }
 .wo {
-	
 	font-size: 25px;
 	margin-left: 20.25%;
 	margin-top: 20px;
-
 }
 .awords {
 	font-weight: 900;
-	color: rgb(214,212,210);
+	color: rgb(214, 212, 210);
 }
 .nu {
 	font-size: 25px;
-      	color: rgb(254,253,253);
+	color: rgb(254, 253, 253);
 	font-weight: 700;
 	margin-top: 20px;
 }
@@ -127,8 +149,8 @@ td {
 	padding: 19px;
 }
 body {
-	background-color: rgb(49,50,49);
-	color: rgb(0,107,3);
+	background-color: rgb(49, 50, 49);
+	color: rgb(0, 107, 3);
 	font-family: 'Roboto', sans-serif;
 }
 #ng {
@@ -140,10 +162,10 @@ body {
 }
 .t {
 	margin-top: -25px;
-    	margin-bottom: 20px;
-    	margin-left: 10%;
-    	font-size: 25px;
- }
+	margin-bottom: 20px;
+	margin-left: 10%;
+	font-size: 25px;
+}
 
 .tb {
 	font-size: 25px;
